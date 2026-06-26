@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Printing Assignment</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav aria-label="Main navigation">
+            <a class="logo-link" href="index.html">
+                <img src="images/logo.png" alt="ESP32 case project logo">
+            </a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pages/prototype1.html">Prototype 1</a></li>
+                <li><a href="pages/prototype2.html">Prototype 2</a></li>
+                <li><a href="pages/final.html">Final Design</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <main>
+            <h2> Assignment Details</h2>
+            <p>The Assignment is to design a 3D-Printed case designed to protect an ESP32-C3 Zero microcontroller board
+                during classroom use while additionally still allowing all the board features to be
+                used.</p>
+        </main>
+        <section>
+            <h1>ESP32-C3 Zero Protective Case Details</h1>
+            <p>This website documents the design journey for a 3D printed protective case for the ESP32-C3 Zero
+                microcontroller. The project includes Prototype 1, Prototype 2 and the Final Design.</p>
+            <p>The purpose of the website is to explain the problem, show how the case was improved through testing and
+                feedback, and present the final design clearly.</p>
+            <a href="index.html">
+                <img class="hero-image" src="images/microcontroller_board.png"
+                    alt="ESP32-C3 Zero microcontroller board">
+            </a>
+        </section>
+
+        <section>
+            <h2>Project Purpose</h2>
+            <p>The ESP32-C3 Zero board is small and can be damaged during classroom use if it is dropped, handled
+                roughly, or packed away without protection. The case is designed to protect the board while still
+                allowing access to the USB port, pins and buttons.</p>
+
+            <p>The protective case needs to meet the following requirements:</p>
+            <ul>
+                <li>Fit the ESP32-C3 Zero microcontroller board accurately.</li>
+                <li>Board needs to be protected during handling and classroom use.</li>
+                <li>The print must enable the board to be accessible for its USB port, pins and buttons.</li>
+                <li>The print must maintain stable and supported for the board.</li>
+                <li>Small vents or ventilation holes are to be added to enable airflow and basic cooling while in use
+                    and in
+                    storage.</li>
+                <li>The print is to be done using available classroom 3D printers and materials.</li>
+                <li>Has to be safe to use, practical, neat and professional in appearance.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Feedback Form</h2>
+            <p>If would like to provide feedback or wish to contact me, please do so by filling out the form below!</p>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="category">Category</label>
+                <select id="category" name="category" required>
+                    <option value="">Select a category</option>
+                    <option value="prototype1">Prototype 1</option>
+                    <option value="prototype2">Prototype 2</option>
+                    <option value="final">Final Design</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label for="name">Title</label>
+                <input type="text" id="title" name="title" placeholder="Enter title">
+
+                <label for="reason">Message</label>
+                <textarea id="message" name="message" rows="4" placeholder="Write your feedback here" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Jordi Pullen - Web Programming</p>
+    </footer>
+</body>
+
+</html>
