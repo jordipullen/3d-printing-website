@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(238, 242, 247);
+    color: rgb(31, 41, 55);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+}
+
+button {
+    background-color: rgb(37, 99, 235);
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover,
+button:focus {
+    background-color: rgb(29, 78, 216);
+}
+
+.card {
+    background-color: rgb(249, 250, 251);
+    border: 1px solid rgb(209, 213, 219);
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.card-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+}
+
+footer {
+    background-color: rgb(17, 24, 39);
+    color: white;
+    margin-top: 2rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+form {
+    display: grid;
+    gap: 0.8rem;
+}
+
+header {
+    background-color: rgb(17, 24, 39);
+    color: white;
+    padding: 1rem;
+}
+
+input,
+select,
+textarea,
+button {
+    font-size: 1rem;
+    padding: 0.65rem;
+    width: 100%;
+}
+
+label {
+    font-weight: bold;
+}
+
+.logo-link img {
+    border-radius: 8px;
+    height: auto;
+    width: 92px;
+}
+
+main {
+    margin: 1.5rem auto;
+    max-width: 1100px;
+    padding: 0 1rem;
+}
+
+.micro-image {
+    border: 1px solid rgb(209, 213, 219);
+    border-radius: 10px;
+    display: block;
+    height: auto;
+    margin: 0.75rem auto 0;
+    max-width: 100%;
+    width: 450px;
+}
+
+nav {
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus {
+    text-decoration: underline;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.prototype-image {
+    border: 1px solid rgb(209, 213, 219);
+    border-radius: 10px;
+    display: block;
+    height: auto;
+    margin-top: 0.75rem;
+    max-width: 100%;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+    margin-bottom: 1rem;
+    padding: 1.25rem;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 0.5rem;
+    width: 100%;
+}
+
+th {
+    background-color: rgb(219, 234, 254);
+}
+
+th,
+td {
+    border: 1px solid rgb(156, 163, 175);
+    padding: 0.75rem;
+    text-align: left;
+    vertical-align: top;
+}
